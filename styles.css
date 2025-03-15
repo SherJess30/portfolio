@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+    body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    }
+
+
+    /* Container */
+    .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+
+
+    /* Header */
+    header {
+    background-color: #333;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+    header h1 {
+    font-size: 3rem;
+    }
+
+
+    header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    }
+
+
+    /* Image styling (before the name) */
+    .profile-image {
+    width: 100px; /* Adjust the size of the image */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fits within the circle */
+    margin-bottom: 20px; /* Space between the image and text */
+    }
+
+
+    /* Navigation */
+    nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    }
+
+
+    nav ul li {
+    margin: 0 20px;
+    }
+
+
+    nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    }
+
+
+    nav ul li a:hover {
+    text-decoration: underline;
+    }
+
+
+    /* Section Styling */
+    .section {
+    padding: 60px 0;
+    }
+
+
+    h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+
+    .bg-light {
+    background-color: #f4f4f4;
+    }
+
+
+    .skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    }
+
+
+    .skill-item {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    }
+
+
+    .project {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+    form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    }
+
+
+    input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    }
+
+
+    button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+
+
+    button:hover {
+    background-color: #555;
+    }
